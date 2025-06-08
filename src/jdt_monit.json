@@ -1,0 +1,2346 @@
+{
+		"Functions": [],
+		"InternalFunctions": [],
+		"Occurrences": {
+			"lowerOccurrences": 1,
+			"upperOccurrences": 1
+		},
+		"Refset": [],
+		"TaskEditable": [
+			"All"
+		],
+		"TaskInReport": [
+			"All"
+		],
+		"TaskVisible": [
+			"All"
+		],
+		"archetypeId": "openEHR-EHR-COMPOSITION.self_reported_data.v1",
+		"category": {
+			"code": 433,
+			"text": "event"
+		},
+		"itemName": "Monitorização",
+		"itemPath": "",
+		"items": [
+			[
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-OBSERVATION.blood_pressure.v2",
+					"data_type": "Title",
+					"itemName": "Pressão arterial",
+					"itemPath": "items.0.0",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_QUANTITY",
+							"itemName": "Sistólica",
+							"itemPath": "items.0.0.items.0",
+							"node": {
+								"code": "at0004",
+								"description": "Pico da pressão arterial sistémica - medida na fase sistólica ou de contração do ciclo cardíaco.",
+								"text": "Sistólica"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at0004]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"units": {
+								"precision": {
+									"lowerPrecision": 0,
+									"upperPrecision": 0
+								},
+								"range": {
+									"lower": 70,
+									"lowerIncluded": "true",
+									"upper": 200,
+									"upperIncluded": "false"
+								},
+								"unit": "mm[Hg]"
+							},
+							"value": {
+								"unit": null,
+								"value": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_QUANTITY",
+							"itemName": "Diastólica",
+							"itemPath": "items.0.0.items.1",
+							"node": {
+								"code": "at0005",
+								"description": "Pressão arterial sistémica mínima - medida na fase diastólica ou de relaxamento do ciclo cardíaco.",
+								"text": "Diastólica"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at0005]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"units": {
+								"precision": {
+									"lowerPrecision": 0,
+									"upperPrecision": 0
+								},
+								"range": {
+									"lower": 40,
+									"lowerIncluded": "true",
+									"upper": 140,
+									"upperIncluded": "false"
+								},
+								"unit": "mm[Hg]"
+							},
+							"value": {
+								"unit": null,
+								"value": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Comentário",
+							"itemPath": "items.0.0.items.2",
+							"node": {
+								"code": "at0033",
+								"description": "Narrativa adicional sobre a medição, não capturada em outros campos.",
+								"text": "Comentário"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at0033]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Posição",
+							"itemPath": "items.0.0.items.3",
+							"itemsList": [
+								{
+									"code": "at1000",
+									"description": "Em pé no momento da medição da pressão arterial.",
+									"text": "Em pé"
+								},
+								{
+									"code": "at1001",
+									"description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+									"text": "Sentado"
+								},
+								{
+									"code": "at1002",
+									"description": "Reclinado no momento da medição da pressão arterial.",
+									"text": "Reclinado"
+								},
+								{
+									"code": "at1003",
+									"description": "Deitado no momento da medição da pressão arterial.",
+									"text": "Deitado"
+								},
+								{
+									"code": "at1014",
+									"description": "Deitado com alguma inclinação lateral, geralmente inclinado para o lado esquerdo.   Geralmente necessária no último trimestre da gravidez para aliviar a compressão aortocaval.",
+									"text": "Deitado com inclinação para a esquerda"
+								}
+							],
+							"node": {
+								"code": "at0008",
+								"description": "A posição do indivíduo no momento da medição.",
+								"text": "Posição"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at0008]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Status de sono",
+							"itemPath": "items.0.0.items.4",
+							"itemsList": [
+								{
+									"code": "at1044",
+									"description": "O indivíduo está totalmente consciente.",
+									"text": "Acordado"
+								},
+								{
+									"code": "at1045",
+									"description": "O indivíduo está em estado natural de repouso corporal.",
+									"text": "A dormir"
+								}
+							],
+							"node": {
+								"code": "at1043",
+								"description": "Status de sono - suporta a interpretação de registos ambulatoriais de pressão arterial de 24 horas.",
+								"text": "Status de sono"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at1043]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_QUANTITY",
+							"itemName": "Inclinado",
+							"itemPath": "items.0.0.items.5",
+							"node": {
+								"code": "at1005",
+								"description": "A inclinação craniocaudal da superfície sobre a qual a pessoa está deitada no momento da medição.",
+								"text": "Inclinado"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at1005]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"units": {
+								"precision": {
+									"lowerPrecision": 0,
+									"upperPrecision": 0
+								},
+								"range": {
+									"lower": -90,
+									"lowerIncluded": "true",
+									"upper": 90,
+									"upperIncluded": "true"
+								},
+								"unit": "deg"
+							},
+							"value": {
+								"unit": null,
+								"value": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_DATE_TIME",
+							"itemName": "time",
+							"itemPath": "items.0.0.items.6",
+							"node": {
+								"code": "",
+								"description": "Time origin of this event history. The first event is not necessarily at the origin point.",
+								"text": "time"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/time",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": {
+								"date": null,
+								"time": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Tamanho da braçadeira",
+							"itemPath": "items.0.0.items.7",
+							"itemsList": [
+								{
+									"code": "at0015",
+									"description": "Uma braçadeira usada para uma coxa de adulto.",
+									"text": "Coxa Adulto"
+								},
+								{
+									"code": "at0016",
+									"description": "Uma braçadeira para adultos com braços maiores.",
+									"text": "Adulto Grande"
+								},
+								{
+									"code": "at0017",
+									"description": "Uma braçadeira padrão para um adulto.",
+									"text": "Adulto"
+								},
+								{
+									"code": "at1008",
+									"description": "Uma braçadeira usada para um adulto pequeno.",
+									"text": "Adulto Pequeno"
+								},
+								{
+									"code": "at1009",
+									"description": "Uma braçadeira apropriada para uma criança ou adulto com braço fino.",
+									"text": "Pediátrico/Infantil"
+								},
+								{
+									"code": "at1018",
+									"description": "Uma braçadeira usada para bebês.",
+									"text": "Infantil"
+								},
+								{
+									"code": "at1019",
+									"description": "Uma braçadeira usada para um recém-nascido, assumindo que a braçadeiraseja do tamanho apropriado para a maturidade e peso ao nascer do recém-nascido.",
+									"text": "Neonatal"
+								}
+							],
+							"node": {
+								"code": "at0013",
+								"description": "O tamanho da braçadeira usada para medição da pressão arterial.",
+								"text": "Tamanho da braçadeira"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at0013]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Local de medição",
+							"itemPath": "items.0.0.items.8",
+							"itemsList": [
+								{
+									"code": "at0025",
+									"description": "O braço direito da pessoa.",
+									"text": "Braço direito"
+								},
+								{
+									"code": "at0026",
+									"description": "O braço esquerdo da pessoa.",
+									"text": "Braço esquerdo"
+								},
+								{
+									"code": "at0027",
+									"description": "A coxa direita de uma pessoa.",
+									"text": "Coxa direita"
+								},
+								{
+									"code": "at0028",
+									"description": "A coxa esquerda de uma pessoa.",
+									"text": "Coxa esquerda"
+								},
+								{
+									"code": "at1020",
+									"description": "O pulso direito do indivíduo.",
+									"text": "Pulso Direito"
+								},
+								{
+									"code": "at1021",
+									"description": "O pulso esquerdo do indivíduo.",
+									"text": "Pulso Esquerdo"
+								},
+								{
+									"code": "at1026",
+									"description": "O tornozelo direito do indivíduo.",
+									"text": "Tornozelo direito"
+								},
+								{
+									"code": "at1031",
+									"description": "O tornozelo esquerdo do indivíduo.",
+									"text": "Tornozelo esquerdo"
+								},
+								{
+									"code": "at1032",
+									"description": "Um dedo do indivíduo.",
+									"text": "Dedo"
+								},
+								{
+									"code": "at1051",
+									"description": "Um dedo do pé do indivíduo.",
+									"text": "Dedo do pé"
+								},
+								{
+									"code": "at1056",
+									"description": "O dorso do pé do indivíduo.",
+									"text": "Dorso do pé"
+								},
+								{
+									"code": "at1053",
+									"description": "Medição invasiva através da linha de acesso do transdutor dentro de uma artéria.",
+									"text": "Intra-arterial"
+								}
+							],
+							"node": {
+								"code": "at0014",
+								"description": "Local simples do corpo onde a pressão arterial foi medida.",
+								"text": "Local de medição"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at0014]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Local de medição",
+							"itemPath": "items.0.0.items.9",
+							"node": {
+								"code": "at0014",
+								"description": "Local simples do corpo onde a pressão arterial foi medida.",
+								"text": "Local de medição"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at0014]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Método",
+							"itemPath": "items.0.0.items.10",
+							"itemsList": [
+								{
+									"code": "at1036",
+									"description": "Método de medição externa da pressão arterial, utilizando estetoscópio e sons de Korotkoff.",
+									"text": "Auscultação"
+								},
+								{
+									"code": "at1037",
+									"description": "Método de medição externa da pressão arterial, por meio de palpação (geralmente das artérias braquial ou radial).",
+									"text": "Palpação"
+								},
+								{
+									"code": "at1039",
+									"description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+									"text": "Máquina"
+								},
+								{
+									"code": "at1040",
+									"description": "Método de medição interna da pressão arterial, ou seja, envolvendo penetração na pele e medição no interior dos vasos sanguíneos.",
+									"text": "Invasivo"
+								}
+							],
+							"node": {
+								"code": "at1035",
+								"description": "Método de medição da pressão arterial.",
+								"text": "Método"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at1035]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "A medição local da pressão arterial que é um substituto da pressão arterial na circulação sistêmica.",
+						"text": "Pressão arterial"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				},
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-OBSERVATION.body_mass_index.v2",
+					"data_type": "Title",
+					"itemName": "Índice de massa corporal",
+					"itemPath": "items.0.1",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_QUANTITY",
+							"itemName": "Índice de massa corporal",
+							"itemPath": "items.0.1.items.0",
+							"node": {
+								"code": "at0004",
+								"description": "Índice que descreve a relação entre peso e altura.",
+								"text": "Índice de massa corporal"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_mass_index.v2]/[at0004]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"units": [
+								{
+									"precision": {
+										"lowerPrecision": 1,
+										"upperPrecision": 1
+									},
+									"range": {
+										"lower": 0,
+										"lowerIncluded": "true",
+										"upper": 1000,
+										"upperIncluded": "false"
+									},
+									"unit": "kg/m2"
+								},
+								{
+									"precision": {
+										"lowerPrecision": 1,
+										"upperPrecision": 1
+									},
+									"range": {
+										"lower": 0,
+										"lowerIncluded": "true",
+										"upper": 1000,
+										"upperIncluded": "false"
+									},
+									"unit": "[lb_av]/[in_i]2"
+								}
+							],
+							"value": {
+								"unit": null,
+								"value": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Comentário",
+							"itemPath": "items.0.1.items.1",
+							"node": {
+								"code": "at0012",
+								"description": "Narrativa adicional sobre o cálculo, não capturada em outros campos.",
+								"text": "Comentário"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_mass_index.v2]/[at0012]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_DATE_TIME",
+							"itemName": "time",
+							"itemPath": "items.0.1.items.2",
+							"node": {
+								"code": "",
+								"description": "Time origin of this event history. The first event is not necessarily at the origin point.",
+								"text": "time"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_mass_index.v2]/time",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": {
+								"date": null,
+								"time": null
+							}
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "Medida calculada que compara o peso e a altura de uma pessoa.",
+						"text": "Índice de massa corporal"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_mass_index.v2]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				},
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-OBSERVATION.pulse_oximetry.v1",
+					"data_type": "Title",
+					"itemName": "Oximetria de pulso",
+					"itemPath": "items.0.2",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_PROPORTION",
+							"itemName": "SpO₂",
+							"itemPath": "items.0.2.items.0",
+							"node": {
+								"code": "at0006",
+								"description": "A saturação de oxigénio no sangue periférico, medida por oximetria de pulso.",
+								"text": "SpO₂"
+							},
+							"numerator": {
+								"range": {
+									"lower": 0,
+									"upper": 100
+								}
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse_oximetry.v1]/[at0006]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"type": "Percent",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Comentários",
+							"itemPath": "items.0.2.items.1",
+							"node": {
+								"code": "at0036",
+								"description": "Um comentário de texto sobre o resultado da oximetria de pulso.",
+								"text": "Comentários"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse_oximetry.v1]/[at0036]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_DATE_TIME",
+							"itemName": "time",
+							"itemPath": "items.0.2.items.2",
+							"node": {
+								"code": "",
+								"description": "Time origin of this event history. The first event is not necessarily at the origin point.",
+								"text": "time"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse_oximetry.v1]/time",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": {
+								"date": null,
+								"time": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Local do sensor",
+							"itemPath": "items.0.2.items.3",
+							"node": {
+								"code": "at0009",
+								"description": "O local do sensor de medição.",
+								"text": "Local do sensor"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse_oximetry.v1]/[at0009]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "Oxigénio no sangue e medições relacionadas, medidas por oximetria de pulso ou CO-oximetria de pulso.",
+						"text": "Oximetria de pulso"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse_oximetry.v1]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				},
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-OBSERVATION.pulse.v2",
+					"data_type": "Title",
+					"itemName": "Pulso/batimento cardíaco",
+					"itemPath": "items.0.3",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Presença",
+							"itemPath": "items.0.3.items.0",
+							"itemsList": [
+								{
+									"code": "at1024",
+									"description": "Um pulso ou batimento cardíaco pode ser detectado.",
+									"text": "Presente"
+								},
+								{
+									"code": "at1025",
+									"description": "Não é possível detectar pulso ou batimento cardíaco.",
+									"text": "Não Detetado"
+								}
+							],
+							"node": {
+								"code": "at1005",
+								"description": "Presença de pulso ou batimento cardíaco.",
+								"text": "Presença"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse.v2]/[at1005]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_QUANTITY",
+							"itemName": "Frequência",
+							"itemPath": "items.0.3.items.1",
+							"node": {
+								"code": "at0004",
+								"description": "A frequência do pulso ou batimento cardíaco, medida em batimentos por minuto.",
+								"text": "Frequência"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse.v2]/[at0004]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"units": {
+								"precision": {
+									"lowerPrecision": 0,
+									"upperPrecision": 0
+								},
+								"range": {
+									"lower": 30,
+									"lowerIncluded": "true",
+									"upper": 200,
+									"upperIncluded": "false"
+								},
+								"unit": "/min"
+							},
+							"value": {
+								"unit": null,
+								"value": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Regularidade",
+							"itemPath": "items.0.3.items.2",
+							"itemsList": [
+								{
+									"code": "at0006",
+									"description": "O padrão é regular.",
+									"text": "Regular"
+								},
+								{
+									"code": "at1028",
+									"description": "O padrão é irregular.",
+									"text": "Irregular"
+								}
+							],
+							"node": {
+								"code": "at0005",
+								"description": "Regularidade do pulso ou batimento cardíaco.",
+								"text": "Regularidade"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse.v2]/[at0005]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Tipo irregular",
+							"itemPath": "items.0.3.items.3",
+							"itemsList": [
+								{
+									"code": "at0007",
+									"description": "O padrão é irregular em um padrão regular. Por exemplo, uma batida interrompida a cada n' tempos.",
+									"text": "Regularmente Irregular"
+								},
+								{
+									"code": "at0008",
+									"description": "O padrão é irregular, caótico e imprevisível. Por exemplo, fibrilação atrial.",
+									"text": "Irregularmente Irregular"
+								}
+							],
+							"node": {
+								"code": "at1055",
+								"description": "Padrão mais específico de pulso ou batimento cardíaco irregular.",
+								"text": "Tipo irregular"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse.v2]/[at1055]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Comentário",
+							"itemPath": "items.0.3.items.4",
+							"node": {
+								"code": "at1059",
+								"description": "Narrativa adicional sobre os resultados do pulso ou batimento cardíaco não capturados em outros campos.",
+								"text": "Comentário"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse.v2]/[at1059]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Posição",
+							"itemPath": "items.0.3.items.5",
+							"itemsList": [
+								{
+									"code": "at1003",
+									"description": "O sujeito estava em pé, caminhando ou correndo.",
+									"text": "Em pé/direito"
+								},
+								{
+									"code": "at1001",
+									"description": "O sujeito estava sentado (por exemplo na cama ou cadeira).",
+									"text": "Sentado"
+								},
+								{
+									"code": "at1002",
+									"description": "O sujeito estava reclinado em um ângulo aproximado de 45 graus, com as pernas elevadas ao nível da pelve.",
+									"text": "Reclinável"
+								},
+								{
+									"code": "at1000",
+									"description": "O sujeito estava deitado.",
+									"text": "Deitado"
+								}
+							],
+							"node": {
+								"code": "at0013",
+								"description": "A posição corporal do sujeito durante a observação.",
+								"text": "Posição"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse.v2]/[at0013]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_DATE_TIME",
+							"itemName": "time",
+							"itemPath": "items.0.3.items.6",
+							"node": {
+								"code": "",
+								"description": "Time origin of this event history. The first event is not necessarily at the origin point.",
+								"text": "time"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse.v2]/time",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": {
+								"date": null,
+								"time": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Método",
+							"itemPath": "items.0.3.items.7",
+							"itemsList": [
+								{
+									"code": "at1032",
+									"description": "Os achados são observados pelo toque físico do observador sobre o sujeito.",
+									"text": "Palpação"
+								},
+								{
+									"code": "at1033",
+									"description": "Os achados são observados com o auxílio de um dispositivo, como um estetoscópio.",
+									"text": "Ausculta"
+								},
+								{
+									"code": "at1034",
+									"description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+									"text": "Automático, não invasivo"
+								},
+								{
+									"code": "at1050",
+									"description": "Os achados são observados de forma invasiva usando um dispositivo como um cateter arterial.",
+									"text": "Automático, invasivo"
+								}
+							],
+							"node": {
+								"code": "at1019",
+								"description": "Método utilizado para observar o pulso ou batimento cardíaco.",
+								"text": "Método"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse.v2]/[at1019]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Local do Corpo",
+							"itemPath": "items.0.3.items.8",
+							"itemsList": [
+								{
+									"code": "at1038",
+									"description": "A artéria radial esquerda.",
+									"text": "Artéria Radial - Esquerda"
+								},
+								{
+									"code": "at1039",
+									"description": "A artéria radial direita.",
+									"text": "Artéria Radial - Direita"
+								},
+								{
+									"code": "at1040",
+									"description": "A região do coração.",
+									"text": "Coração"
+								},
+								{
+									"code": "at1041",
+									"description": "A artéria carótida esquerda.",
+									"text": "Artéria Carótida - Esquerda"
+								},
+								{
+									"code": "at1042",
+									"description": "A artéria carótida direita.",
+									"text": "Artéria Carótida - Direita"
+								},
+								{
+									"code": "at1043",
+									"description": "A artéria femoral esquerda.",
+									"text": "Artéria Femoral - Esquerda"
+								},
+								{
+									"code": "at1044",
+									"description": "A artéria femoral direita.",
+									"text": "Artéria Femoral - Direita"
+								},
+								{
+									"code": "at1049",
+									"description": "A artéria braquial direita.",
+									"text": "Artéria braquial - Direita"
+								},
+								{
+									"code": "at1048",
+									"description": "A artéria braquial esquerda.",
+									"text": "Artéria braquial - Esquerda"
+								},
+								{
+									"code": "at1047",
+									"description": "Um dedo não especificado.",
+									"text": "Dedo"
+								},
+								{
+									"code": "at1054",
+									"description": "Um dedo do pé não especificado.",
+									"text": "Dedo do pé"
+								},
+								{
+									"code": "at1051",
+									"description": "O lóbulo de uma orelha não especificada.",
+									"text": "Lóbulo da orelha"
+								}
+							],
+							"node": {
+								"code": "at1037",
+								"description": "Local do corpo onde o pulso ou batimento cardíaco foram observados.",
+								"text": "Local do Corpo"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse.v2]/[at1037]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Local do Corpo",
+							"itemPath": "items.0.3.items.9",
+							"node": {
+								"code": "at1037",
+								"description": "Local do corpo onde o pulso ou batimento cardíaco foram observados.",
+								"text": "Local do Corpo"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse.v2]/[at1037]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "A taxa e os atributos associados a um pulso ou batimento cardíaco.",
+						"text": "Pulso/batimento cardíaco"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.pulse.v2]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				},
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-OBSERVATION.respiration.v2",
+					"data_type": "Title",
+					"itemName": "Respiração",
+					"itemPath": "items.0.4",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Presença",
+							"itemPath": "items.0.4.items.0",
+							"itemsList": [
+								{
+									"code": "at0063",
+									"description": "Os movimentos respiratórios são observados.",
+									"text": "Presente"
+								},
+								{
+									"code": "at0064",
+									"description": "Os movimentos respiratórios não são detectados na observação.",
+									"text": "Não detetado"
+								}
+							],
+							"node": {
+								"code": "at0062",
+								"description": "Observação da respiração espontânea.",
+								"text": "Presença"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.respiration.v2]/[at0062]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_QUANTITY",
+							"itemName": "Frequência",
+							"itemPath": "items.0.4.items.1",
+							"node": {
+								"code": "at0004",
+								"description": "A frequência da respiração espontânea.",
+								"text": "Frequência"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.respiration.v2]/[at0004]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"units": {
+								"precision": {
+									"lowerPrecision": 0,
+									"upperPrecision": 0
+								},
+								"range": {
+									"lower": 0,
+									"lowerIncluded": "true",
+									"upper": 200,
+									"upperIncluded": "true"
+								},
+								"unit": "/min"
+							},
+							"value": {
+								"unit": null,
+								"value": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Regularidade",
+							"itemPath": "items.0.4.items.2",
+							"itemsList": [
+								{
+									"code": "at0006",
+									"description": "O padrão respiratório é regular.",
+									"text": "Regular"
+								},
+								{
+									"code": "at0007",
+									"description": "O padrão respiratório não é regular.",
+									"text": "Irregular"
+								}
+							],
+							"node": {
+								"code": "at0005",
+								"description": "A regularidade da respiração espontânea.",
+								"text": "Regularidade"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.respiration.v2]/[at0005]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Profundidade",
+							"itemPath": "items.0.4.items.3",
+							"itemsList": [
+								{
+									"code": "at0017",
+									"description": "Profundidade normal da respiração.",
+									"text": "Normal"
+								},
+								{
+									"code": "at0018",
+									"description": "Profundidade superficial da respiração.",
+									"text": "Superficial"
+								},
+								{
+									"code": "at0019",
+									"description": "Respiração profunda.",
+									"text": "Profundo"
+								},
+								{
+									"code": "at0025",
+									"description": "Profundidade variável da respiração.",
+									"text": "Variável"
+								}
+							],
+							"node": {
+								"code": "at0016",
+								"description": "A profundidade da respiração espontânea.",
+								"text": "Profundidade"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.respiration.v2]/[at0016]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Comentário",
+							"itemPath": "items.0.4.items.4",
+							"node": {
+								"code": "at0070",
+								"description": "Narrativa adicional sobre as respirações, não capturada em outros campos.",
+								"text": "Comentário"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.respiration.v2]/[at0070]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Posição do corpo",
+							"itemPath": "items.0.4.items.5",
+							"itemsList": [
+								{
+									"code": "at0066",
+									"description": "O indivíduo estava em pé, caminhando ou correndo.",
+									"text": "Em pé/direito"
+								},
+								{
+									"code": "at0067",
+									"description": "O indivíduo estava sentado (por exemplo, em uma cama ou cadeira).",
+									"text": "Sentado"
+								},
+								{
+									"code": "at0068",
+									"description": "O indivíduo estava reclinado em um ângulo aproximado de 45 graus, com as pernas elevadas ao nível da pelve.",
+									"text": "Reclinável"
+								},
+								{
+									"code": "at0069",
+									"description": "O indivíduo estava deitado de costas.",
+									"text": "Deitado"
+								},
+								{
+									"code": "at0071",
+									"description": "O indivíduo estava deitado de bruços.",
+									"text": "Pronado"
+								}
+							],
+							"node": {
+								"code": "at0065",
+								"description": "Posição corporal do indivíduo durante a observação.",
+								"text": "Posição do corpo"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.respiration.v2]/[at0065]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_DATE_TIME",
+							"itemName": "time",
+							"itemPath": "items.0.4.items.6",
+							"node": {
+								"code": "",
+								"description": "Time origin of this event history. The first event is not necessarily at the origin point.",
+								"text": "time"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.respiration.v2]/time",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": {
+								"date": null,
+								"time": null
+							}
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "Características da respiração espontânea de um indivíduo.",
+						"text": "Respiração"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.respiration.v2]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				},
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-OBSERVATION.body_temperature.v2",
+					"data_type": "Title",
+					"itemName": "Temperatura corporal",
+					"itemPath": "items.0.5",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_QUANTITY",
+							"itemName": "Temperatura",
+							"itemPath": "items.0.5.items.0",
+							"node": {
+								"code": "at0004",
+								"description": "A temperatura medida.",
+								"text": "Temperatura"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_temperature.v2]/[at0004]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"units": {
+								"precision": {
+									"lowerPrecision": 1,
+									"upperPrecision": 1
+								},
+								"range": {
+									"lower": 27,
+									"lowerIncluded": "true",
+									"upper": 42.6,
+									"upperIncluded": "false"
+								},
+								"unit": "Cel"
+							},
+							"value": {
+								"unit": null,
+								"value": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Comentários",
+							"itemPath": "items.0.5.items.1",
+							"node": {
+								"code": "at0063",
+								"description": "Comentário adicional sobre a medição da temperatura corporal não capturada em outros campos.",
+								"text": "Comentários"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_temperature.v2]/[at0063]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Exposição corporal",
+							"itemPath": "items.0.5.items.2",
+							"itemsList": [
+								{
+									"code": "at0031",
+									"description": "Sem roupas, roupas de cama ou coberturas.",
+									"text": "Nu"
+								},
+								{
+									"code": "at0032",
+									"description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+									"text": "Roupas/roupas de cama reduzidas"
+								},
+								{
+									"code": "at0033",
+									"description": "A pessoa está coberta por uma quantidade de roupa ou roupa de cama considerada apropriada para as circunstâncias ambientais.",
+									"text": "Roupas/roupas de cama apropriadas"
+								},
+								{
+									"code": "at0034",
+									"description": "A pessoa está coberta por uma quantidade maior de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+									"text": "Aumento de roupas/roupas de cama"
+								}
+							],
+							"node": {
+								"code": "at0030",
+								"description": "O grau de exposição do indivíduo no momento da medição.",
+								"text": "Exposição corporal"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_temperature.v2]/[at0030]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Exposição corporal",
+							"itemPath": "items.0.5.items.3",
+							"node": {
+								"code": "at0030",
+								"description": "O grau de exposição do indivíduo no momento da medição.",
+								"text": "Exposição corporal"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_temperature.v2]/[at0030]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_DATE_TIME",
+							"itemName": "time",
+							"itemPath": "items.0.5.items.4",
+							"node": {
+								"code": "",
+								"description": "Time origin of this event history. The first event is not necessarily at the origin point.",
+								"text": "time"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_temperature.v2]/time",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": {
+								"date": null,
+								"time": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Localização da medição",
+							"itemPath": "items.0.5.items.5",
+							"itemsList": [
+								{
+									"code": "at0025",
+									"description": "Temperatura medida dentro do reto.",
+									"text": "Reto"
+								},
+								{
+									"code": "at0024",
+									"description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+									"text": "Axila"
+								},
+								{
+									"code": "at0023",
+									"description": "A temperatura é medida dentro do canal auditivo externo.",
+									"text": "Canal auditivo"
+								},
+								{
+									"code": "at0061",
+									"description": "A temperatura é medida na testa.",
+									"text": "Testa"
+								},
+								{
+									"code": "at0022",
+									"description": "A temperatura é medida dentro da boca.",
+									"text": "Boca"
+								},
+								{
+									"code": "at0026",
+									"description": "A temperatura é medida dentro da nasofaringe.",
+									"text": "Nasofaringe"
+								},
+								{
+									"code": "at0027",
+									"description": "A temperatura é medida na bexiga urinária.",
+									"text": "Bexiga urinária"
+								},
+								{
+									"code": "at0028",
+									"description": "A temperatura é medida dentro do sistema vascular.",
+									"text": "Intravascular"
+								},
+								{
+									"code": "at0043",
+									"description": "A temperatura é medida na pele exposta.",
+									"text": "Pele"
+								},
+								{
+									"code": "at0051",
+									"description": "A temperatura é medida dentro da vagina.",
+									"text": "Vagina"
+								},
+								{
+									"code": "at0054",
+									"description": "A temperatura é medida dentro do esôfago.",
+									"text": "Esôfago"
+								},
+								{
+									"code": "at0055",
+									"description": "A temperatura é medida na prega cutânea inguinal entre a perna e a parede abdominal.",
+									"text": "Vínculo cutâneo inguinal"
+								},
+								{
+									"code": "at0060",
+									"description": "A temperatura é medida na têmpora, sobre a artéria temporal superficial.",
+									"text": "Têmpora"
+								}
+							],
+							"node": {
+								"code": "at0021",
+								"description": "Descrição simples sobre o local de medição.",
+								"text": "Localização da medição"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_temperature.v2]/[at0021]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Localização da medição",
+							"itemPath": "items.0.5.items.6",
+							"node": {
+								"code": "at0021",
+								"description": "Descrição simples sobre o local de medição.",
+								"text": "Localização da medição"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_temperature.v2]/[at0021]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "Uma medida da temperatura corporal, que é um substituto para a temperatura corporal central do indivíduo.",
+						"text": "Temperatura corporal"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.body_temperature.v2]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				}
+			]
+		],
+		"node": {
+			"code": "at0000",
+			"description": "Contentor genérico para informação fornecida por um indivíduo.",
+			"text": "Monitorização"
+		},
+		"occurrences": {
+			"lowerOccurrences": 1,
+			"upperOccurrences": 1
+		},
+		"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]",
+		"rm_type_name": "COMPOSITION",
+		"ruleMandatory": [],
+		"ruleVisibility": [],
+		"templateId": "3dcd058d-0370-4f6a-8507-f2de98234944",
+		"templateName": "Monitorização",
+		"terminology": "",
+		"themeColor": "default"
+	}
