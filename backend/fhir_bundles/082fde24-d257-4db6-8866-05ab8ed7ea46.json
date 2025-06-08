@@ -1,0 +1,1182 @@
+{
+  "resourceType": "Bundle",
+  "id": "47ac2bf3-909c-464a-b13b-64a97ee190e5",
+  "type": "collection",
+  "timestamp": "2025-06-07T10:35:22.264Z",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "62d62bf5-cbb4-45ce-b952-448ed4ddfba6",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "value": 120,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a212f693-efa5-4178-86c1-18c052364ba3",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "value": 80,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8da899e5-ddd6-463b-aa44-7cafd4a8eeae",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75325-1",
+              "display": "Blood pressure comment"
+            }
+          ],
+          "text": "Blood pressure comment"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "Normal."
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2c3da96f-346b-4bae-ac7a-2aca21fcee80",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8352-7",
+              "display": "Body position"
+            }
+          ],
+          "text": "Body position"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75ec1291-dfa8-45d4-a968-07b88fde9573",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75323-6",
+              "display": "Sleep status"
+            }
+          ],
+          "text": "Sleep status"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0336d5c7-5acd-42d1-bd64-37f0c91b9452",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "82810-3",
+              "display": "Body inclination"
+            }
+          ],
+          "text": "Body inclination"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "value": 0,
+          "unit": "deg",
+          "system": "http://unitsofmeasure.org",
+          "code": "deg"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6ee05602-8c7d-4ee5-8564-46a6ad6e579b",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75327-7",
+              "display": "Cuff size"
+            }
+          ],
+          "text": "Cuff size"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c04d1a19-980a-4214-8978-93184e1f9f49",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8354-3",
+              "display": "Measurement location"
+            }
+          ],
+          "text": "Measurement location"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d0cd2e59-b1ca-47e5-a296-7be8866ed4e1",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75326-9",
+              "display": "Measurement location comment"
+            }
+          ],
+          "text": "Measurement location comment"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "Realizada na coxa direita porque o indivíduo não tem braços."
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c502785c-8efb-4f55-a058-64129a908430",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75329-3",
+              "display": "Measurement method"
+            }
+          ],
+          "text": "Measurement method"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8f0c251a-f197-4b61-9b13-cdcce6971898",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "BMI"
+            }
+          ],
+          "text": "BMI"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "value": 25,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3d3d89be-bf06-457a-8e8f-af52a0d33bcd",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "69765-6",
+              "display": "BMI comment"
+            }
+          ],
+          "text": "BMI comment"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "Normal."
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "39dd07ec-211c-4969-8479-0960922598df",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen saturation"
+            }
+          ],
+          "text": "Oxygen saturation"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "98%"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fc2297bb-11fe-46cb-b144-8afda1a8589e",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75324-4",
+              "display": "SpO2 comment"
+            }
+          ],
+          "text": "SpO2 comment"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "Valor normal"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0aad6e02-a660-4e0e-894d-86170a1d575b",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75328-5",
+              "display": "Sensor location"
+            }
+          ],
+          "text": "Sensor location"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "Dedo indicador direito."
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0b670641-6efb-48c1-a028-5875c78f9f1c",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "46098-0",
+              "display": "Pulse presence"
+            }
+          ],
+          "text": "Pulse presence"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e3d00867-6233-4ce7-93ee-9624fe12e7c7",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Pulse rate"
+            }
+          ],
+          "text": "Pulse rate"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "value": 75,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1328413f-8f09-4c96-a4fb-ece2ba831988",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75332-7",
+              "display": "Pulse regularity"
+            }
+          ],
+          "text": "Pulse regularity"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ac7be26f-1f8c-4d9a-ba35-e10e726ca61f",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75334-3",
+              "display": "Pulse comment"
+            }
+          ],
+          "text": "Pulse comment"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "Valor padrão."
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3b9914ca-38c2-460f-899b-7da53a553ff3",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8352-7",
+              "display": "Pulse body position"
+            }
+          ],
+          "text": "Pulse body position"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "67ad1e31-23bc-41f3-bf98-56b15384b2e4",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75331-9",
+              "display": "Pulse method"
+            }
+          ],
+          "text": "Pulse method"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5c3a72cf-4a9d-425f-b0b1-582c17515480",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85355-6",
+              "display": "Pulse location"
+            }
+          ],
+          "text": "Pulse location"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b6202e06-5f9b-49d7-b013-de93162e1c1c",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75330-1",
+              "display": "Pulse location comment"
+            }
+          ],
+          "text": "Pulse location comment"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "Caixa torácica."
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a3fbc2e2-1f91-48ee-ab92-05e85628815d",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "46098-0",
+              "display": "Respiration presence"
+            }
+          ],
+          "text": "Respiration presence"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "001cc23d-b29d-4bd3-91a4-70c9d130d086",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "value": 18,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a98f464a-0b7c-4d4d-aae9-da3f389aa08f",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75335-0",
+              "display": "Respiration regularity"
+            }
+          ],
+          "text": "Respiration regularity"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1958b8d0-3076-44ff-b115-33d8e4b3f0c3",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75336-8",
+              "display": "Respiration depth"
+            }
+          ],
+          "text": "Respiration depth"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9f347f0b-18d9-4191-a2ca-f85577ef03c0",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75337-6",
+              "display": "Respiration comment"
+            }
+          ],
+          "text": "Respiration comment"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "Indivíduo apresenta estar normal."
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "76b47189-6794-4dd1-b40b-d8518cd4f3bf",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8352-7",
+              "display": "Body position"
+            }
+          ],
+          "text": "Body position"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "38585966-7a3b-42a0-b081-c69bdf2ecdb9",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "value": 36,
+          "unit": "Cel",
+          "system": "http://unitsofmeasure.org",
+          "code": "Cel"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d4d07286-3ce5-439f-8163-fd634396a3bf",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75338-4",
+              "display": "Temperature comment"
+            }
+          ],
+          "text": "Temperature comment"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "Apesar do calor apresenta temperaturas normais."
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "aec06ce3-9f56-48b3-b8e1-7183bbb65770",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75339-2",
+              "display": "Body exposure"
+            }
+          ],
+          "text": "Body exposure"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b0483456-4db9-4321-b3f9-298237679275",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75340-0",
+              "display": "Body exposure comment"
+            }
+          ],
+          "text": "Body exposure comment"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "Normal."
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "71005f17-df1c-44dd-b252-0e513d311d89",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8327-9",
+              "display": "Measurement location"
+            }
+          ],
+          "text": "Measurement location"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a9cadf67-1282-477d-836b-412066437de3",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75341-8",
+              "display": "Measurement location comment"
+            }
+          ],
+          "text": "Measurement location comment"
+        },
+        "effectiveDateTime": "2025-06-07T10:35:22.264Z",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueString": "Braço direito."
+      }
+    }
+  ]
+}

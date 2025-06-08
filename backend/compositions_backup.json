@@ -1,0 +1,3950 @@
+[
+  {
+    "id": "8d3889e8-02f3-445c-9b4b-d50b40bfb1f0",
+    "created_at": "2025-06-07T10:23:01.560Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "bmi": {
+        "bmi_value": {
+          "value": 26,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": null,
+      "items.0.0.items.0.value.value": null,
+      "items.0.0.items.1.value.unit": null,
+      "items.0.0.items.1.value.value": null,
+      "items.0.0.items.10.value": null,
+      "items.0.0.items.2.value": null,
+      "items.0.0.items.3.value": null,
+      "items.0.0.items.4.value": null,
+      "items.0.0.items.5.value.unit": null,
+      "items.0.0.items.5.value.value": null,
+      "items.0.0.items.6.value.date": null,
+      "items.0.0.items.6.value.time": null,
+      "items.0.0.items.7.value": null,
+      "items.0.0.items.8.value": null,
+      "items.0.0.items.9.value": null,
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 26,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-07",
+      "items.0.1.items.2.value.time": "11:30",
+      "items.0.2.items.0.value": null,
+      "items.0.2.items.1.value": null,
+      "items.0.2.items.2.value.date": null,
+      "items.0.2.items.2.value.time": null,
+      "items.0.2.items.3.value": null,
+      "items.0.3.items.0.value": null,
+      "items.0.3.items.1.value.unit": null,
+      "items.0.3.items.1.value.value": null,
+      "items.0.3.items.2.value": null,
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": null,
+      "items.0.3.items.5.value": null,
+      "items.0.3.items.6.value.date": null,
+      "items.0.3.items.6.value.time": null,
+      "items.0.3.items.7.value": null,
+      "items.0.3.items.8.value": null,
+      "items.0.3.items.9.value": null,
+      "items.0.4.items.0.value": null,
+      "items.0.4.items.1.value.unit": null,
+      "items.0.4.items.1.value.value": null,
+      "items.0.4.items.2.value": null,
+      "items.0.4.items.3.value": null,
+      "items.0.4.items.4.value": null,
+      "items.0.4.items.5.value": null,
+      "items.0.4.items.6.value.date": null,
+      "items.0.4.items.6.value.time": null,
+      "items.0.5.items.0.value.unit": null,
+      "items.0.5.items.0.value.value": null,
+      "items.0.5.items.1.value": null,
+      "items.0.5.items.2.value": null,
+      "items.0.5.items.3.value": null,
+      "items.0.5.items.4.value.date": null,
+      "items.0.5.items.4.value.time": null,
+      "items.0.5.items.5.value": null,
+      "items.0.5.items.6.value": null
+    }
+  },
+  {
+    "id": "082fde24-d257-4db6-8866-05ab8ed7ea46",
+    "created_at": "2025-06-07T10:35:22.185Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 120,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 80,
+          "unit": "mm[Hg]"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1000",
+          "description": "Em pé no momento da medição da pressão arterial.",
+          "text": "Em pé"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0015",
+          "description": "Uma braçadeira usada para uma coxa de adulto.",
+          "text": "Coxa Adulto"
+        },
+        "measurement_location": {
+          "code": "at0027",
+          "description": "A coxa direita de uma pessoa.",
+          "text": "Coxa direita"
+        },
+        "measurement_location_comment": "Realizada na coxa direita porque o indivíduo não tem braços.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      },
+      "pulse_oximetry": {
+        "spo2": "98%",
+        "comment": "Valor normal",
+        "sensor_location": "Dedo indicador direito."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 75,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "comment": "Valor padrão.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1034",
+          "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+          "text": "Automático, não invasivo"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 18,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Indivíduo apresenta estar normal.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 36,
+          "unit": "Cel"
+        },
+        "comment": "Apesar do calor apresenta temperaturas normais.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 120,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 80,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"4tfvt\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1000",
+        "description": "Em pé no momento da medição da pressão arterial.",
+        "text": "Em pé"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": "11:40",
+      "items.0.0.items.7.value": {
+        "code": "at0015",
+        "description": "Uma braçadeira usada para uma coxa de adulto.",
+        "text": "Coxa Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0027",
+        "description": "A coxa direita de uma pessoa.",
+        "text": "Coxa direita"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"39f3k\",\"text\":\"Realizada na coxa direita porque o indivíduo não tem braços.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-09",
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": "98%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"b8mj8\",\"text\":\"Valor normal\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-07",
+      "items.0.2.items.2.value.time": "11:55",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"8a5fb\",\"text\":\"Dedo indicador direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 75,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"90ci3\",\"text\":\"Valor padrão.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-07",
+      "items.0.3.items.6.value.time": "11:45",
+      "items.0.3.items.7.value": {
+        "code": "at1034",
+        "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+        "text": "Automático, não invasivo"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"fp89c\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 18,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"ec0nq\",\"text\":\"Indivíduo apresenta estar normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-07",
+      "items.0.4.items.6.value.time": "11:45",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 36,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"67c6i\",\"text\":\"Apesar do calor apresenta temperaturas normais.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"e000o\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "11:50",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"96t1c\",\"text\":\"Braço direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "58a11a9e-fb90-48ba-b705-9324037f0306",
+    "created_at": "2025-06-07T15:26:58.635Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "body_temperature": {
+        "temperature": {
+          "value": 36.5,
+          "unit": "Cel"
+        },
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço Direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": null,
+      "items.0.0.items.0.value.value": null,
+      "items.0.0.items.1.value.unit": null,
+      "items.0.0.items.1.value.value": null,
+      "items.0.0.items.10.value": null,
+      "items.0.0.items.2.value": null,
+      "items.0.0.items.3.value": null,
+      "items.0.0.items.4.value": null,
+      "items.0.0.items.5.value.unit": null,
+      "items.0.0.items.5.value.value": null,
+      "items.0.0.items.6.value.date": null,
+      "items.0.0.items.6.value.time": null,
+      "items.0.0.items.7.value": null,
+      "items.0.0.items.8.value": null,
+      "items.0.0.items.9.value": null,
+      "items.0.1.items.0.value.unit": null,
+      "items.0.1.items.0.value.value": null,
+      "items.0.1.items.1.value": null,
+      "items.0.1.items.2.value.date": null,
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": null,
+      "items.0.2.items.1.value": null,
+      "items.0.2.items.2.value.date": null,
+      "items.0.2.items.2.value.time": null,
+      "items.0.2.items.3.value": null,
+      "items.0.3.items.0.value": null,
+      "items.0.3.items.1.value.unit": null,
+      "items.0.3.items.1.value.value": null,
+      "items.0.3.items.2.value": null,
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": null,
+      "items.0.3.items.5.value": null,
+      "items.0.3.items.6.value.date": null,
+      "items.0.3.items.6.value.time": null,
+      "items.0.3.items.7.value": null,
+      "items.0.3.items.8.value": null,
+      "items.0.3.items.9.value": null,
+      "items.0.4.items.0.value": null,
+      "items.0.4.items.1.value.unit": null,
+      "items.0.4.items.1.value.value": null,
+      "items.0.4.items.2.value": null,
+      "items.0.4.items.3.value": null,
+      "items.0.4.items.4.value": null,
+      "items.0.4.items.5.value": null,
+      "items.0.4.items.6.value.date": null,
+      "items.0.4.items.6.value.time": null,
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 36.5,
+      "items.0.5.items.1.value": null,
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"cbht6\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "16:40",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"eghd3\",\"text\":\"Braço Direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "d85a996b-e234-49ca-9b81-16fa4b9e860b",
+    "created_at": "2025-06-07T20:13:25.544Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 110,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 70,
+          "unit": "mm[Hg]"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1001",
+          "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+          "text": "Sentado"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0015",
+          "description": "Uma braçadeira usada para uma coxa de adulto.",
+          "text": "Coxa Adulto"
+        },
+        "measurement_location": {
+          "code": "at0027",
+          "description": "A coxa direita de uma pessoa.",
+          "text": "Coxa direita"
+        },
+        "measurement_location_comment": "Realizada na coxa direita porque o indivíduo não tem braços.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      },
+      "pulse_oximetry": {
+        "spo2": "97%",
+        "comment": "Valor normal",
+        "sensor_location": "Dedo indicador direito."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 75,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "comment": "Valor padrão.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1034",
+          "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+          "text": "Automático, não invasivo"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 18,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Indivíduo apresenta estar normal.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 37,
+          "unit": "Cel"
+        },
+        "comment": "Apesar do calor apresenta temperaturas normais.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 110,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 70,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"4tfvt\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1001",
+        "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+        "text": "Sentado"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": "11:45",
+      "items.0.0.items.7.value": {
+        "code": "at0015",
+        "description": "Uma braçadeira usada para uma coxa de adulto.",
+        "text": "Coxa Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0027",
+        "description": "A coxa direita de uma pessoa.",
+        "text": "Coxa direita"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"39f3k\",\"text\":\"Realizada na coxa direita porque o indivíduo não tem braços.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-09",
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": "97%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"b8mj8\",\"text\":\"Valor normal\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-07",
+      "items.0.2.items.2.value.time": "12:10",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"8a5fb\",\"text\":\"Dedo indicador direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 75,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"90ci3\",\"text\":\"Valor padrão.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-07",
+      "items.0.3.items.6.value.time": "11:45",
+      "items.0.3.items.7.value": {
+        "code": "at1034",
+        "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+        "text": "Automático, não invasivo"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"fp89c\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 18,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"ec0nq\",\"text\":\"Indivíduo apresenta estar normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-07",
+      "items.0.4.items.6.value.time": "11:45",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 37,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"67c6i\",\"text\":\"Apesar do calor apresenta temperaturas normais.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"e000o\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "11:50",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"96t1c\",\"text\":\"Braço direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "cab16252-2768-4a0e-88c3-1fe9f6587fed",
+    "created_at": "2025-06-07T20:14:57.737Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 122,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 80,
+          "unit": "mm[Hg]"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1001",
+          "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+          "text": "Sentado"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0015",
+          "description": "Uma braçadeira usada para uma coxa de adulto.",
+          "text": "Coxa Adulto"
+        },
+        "measurement_location": {
+          "code": "at0027",
+          "description": "A coxa direita de uma pessoa.",
+          "text": "Coxa direita"
+        },
+        "measurement_location_comment": "Realizada na coxa direita porque o indivíduo não tem braços.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      },
+      "pulse_oximetry": {
+        "spo2": "97%",
+        "comment": "Valor normal",
+        "sensor_location": "Dedo indicador direito."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 75,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "comment": "Valor padrão.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1034",
+          "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+          "text": "Automático, não invasivo"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 18,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Indivíduo apresenta estar normal.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 37,
+          "unit": "Cel"
+        },
+        "comment": "Apesar do calor apresenta temperaturas normais.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 122,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 80,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"4tfvt\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1001",
+        "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+        "text": "Sentado"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": "12:15",
+      "items.0.0.items.7.value": {
+        "code": "at0015",
+        "description": "Uma braçadeira usada para uma coxa de adulto.",
+        "text": "Coxa Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0027",
+        "description": "A coxa direita de uma pessoa.",
+        "text": "Coxa direita"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"39f3k\",\"text\":\"Realizada na coxa direita porque o indivíduo não tem braços.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-09",
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": "97%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"b8mj8\",\"text\":\"Valor normal\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-07",
+      "items.0.2.items.2.value.time": "12:10",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"8a5fb\",\"text\":\"Dedo indicador direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 75,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"90ci3\",\"text\":\"Valor padrão.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-07",
+      "items.0.3.items.6.value.time": "11:45",
+      "items.0.3.items.7.value": {
+        "code": "at1034",
+        "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+        "text": "Automático, não invasivo"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"fp89c\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 18,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"ec0nq\",\"text\":\"Indivíduo apresenta estar normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-07",
+      "items.0.4.items.6.value.time": "11:45",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 37,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"67c6i\",\"text\":\"Apesar do calor apresenta temperaturas normais.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"e000o\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "11:50",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"96t1c\",\"text\":\"Braço direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "6a1a4ee5-744f-40f6-973a-2827599bae39",
+    "created_at": "2025-06-07T20:24:46.697Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 122,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 80,
+          "unit": "mm[Hg]"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1001",
+          "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+          "text": "Sentado"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0015",
+          "description": "Uma braçadeira usada para uma coxa de adulto.",
+          "text": "Coxa Adulto"
+        },
+        "measurement_location": {
+          "code": "at0027",
+          "description": "A coxa direita de uma pessoa.",
+          "text": "Coxa direita"
+        },
+        "measurement_location_comment": "Realizada na coxa direita porque o indivíduo não tem braços.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      },
+      "pulse_oximetry": {
+        "spo2": "97%",
+        "comment": "Valor normal",
+        "sensor_location": "Dedo indicador direito."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 75,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "comment": "Valor padrão.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1034",
+          "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+          "text": "Automático, não invasivo"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 18,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Indivíduo apresenta estar normal.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 37,
+          "unit": "Cel"
+        },
+        "comment": "Apesar do calor apresenta temperaturas normais.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 122,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 80,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"4tfvt\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1001",
+        "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+        "text": "Sentado"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": "12:30",
+      "items.0.0.items.7.value": {
+        "code": "at0015",
+        "description": "Uma braçadeira usada para uma coxa de adulto.",
+        "text": "Coxa Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0027",
+        "description": "A coxa direita de uma pessoa.",
+        "text": "Coxa direita"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"39f3k\",\"text\":\"Realizada na coxa direita porque o indivíduo não tem braços.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-09",
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": "97%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"b8mj8\",\"text\":\"Valor normal\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-07",
+      "items.0.2.items.2.value.time": "12:10",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"8a5fb\",\"text\":\"Dedo indicador direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 75,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"90ci3\",\"text\":\"Valor padrão.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-07",
+      "items.0.3.items.6.value.time": "11:45",
+      "items.0.3.items.7.value": {
+        "code": "at1034",
+        "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+        "text": "Automático, não invasivo"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"fp89c\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 18,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"ec0nq\",\"text\":\"Indivíduo apresenta estar normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-07",
+      "items.0.4.items.6.value.time": "11:45",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 37,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"67c6i\",\"text\":\"Apesar do calor apresenta temperaturas normais.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"e000o\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "11:50",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"96t1c\",\"text\":\"Braço direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "ec38c157-0581-48af-94ec-231b2f31d5ea",
+    "created_at": "2025-06-07T20:25:41.045Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 135,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 80,
+          "unit": "mm[Hg]"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1001",
+          "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+          "text": "Sentado"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0015",
+          "description": "Uma braçadeira usada para uma coxa de adulto.",
+          "text": "Coxa Adulto"
+        },
+        "measurement_location": {
+          "code": "at0027",
+          "description": "A coxa direita de uma pessoa.",
+          "text": "Coxa direita"
+        },
+        "measurement_location_comment": "Realizada na coxa direita porque o indivíduo não tem braços.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      },
+      "pulse_oximetry": {
+        "spo2": "97%",
+        "comment": "Valor normal",
+        "sensor_location": "Dedo indicador direito."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 75,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "comment": "Valor padrão.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1034",
+          "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+          "text": "Automático, não invasivo"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 18,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Indivíduo apresenta estar normal.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 37,
+          "unit": "Cel"
+        },
+        "comment": "Apesar do calor apresenta temperaturas normais.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 135,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 80,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"4tfvt\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1001",
+        "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+        "text": "Sentado"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": "12:30",
+      "items.0.0.items.7.value": {
+        "code": "at0015",
+        "description": "Uma braçadeira usada para uma coxa de adulto.",
+        "text": "Coxa Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0027",
+        "description": "A coxa direita de uma pessoa.",
+        "text": "Coxa direita"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"39f3k\",\"text\":\"Realizada na coxa direita porque o indivíduo não tem braços.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-09",
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": "97%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"b8mj8\",\"text\":\"Valor normal\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-07",
+      "items.0.2.items.2.value.time": "12:10",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"8a5fb\",\"text\":\"Dedo indicador direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 75,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"90ci3\",\"text\":\"Valor padrão.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-07",
+      "items.0.3.items.6.value.time": "11:45",
+      "items.0.3.items.7.value": {
+        "code": "at1034",
+        "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+        "text": "Automático, não invasivo"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"fp89c\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 18,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"ec0nq\",\"text\":\"Indivíduo apresenta estar normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-07",
+      "items.0.4.items.6.value.time": "11:45",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 37,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"67c6i\",\"text\":\"Apesar do calor apresenta temperaturas normais.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"e000o\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "11:50",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"96t1c\",\"text\":\"Braço direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "0464e5d0-34f0-49c6-af07-0ed820fc86e6",
+    "created_at": "2025-06-07T20:26:00.869Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 130,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 75,
+          "unit": "mm[Hg]"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1001",
+          "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+          "text": "Sentado"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0015",
+          "description": "Uma braçadeira usada para uma coxa de adulto.",
+          "text": "Coxa Adulto"
+        },
+        "measurement_location": {
+          "code": "at0027",
+          "description": "A coxa direita de uma pessoa.",
+          "text": "Coxa direita"
+        },
+        "measurement_location_comment": "Realizada na coxa direita porque o indivíduo não tem braços.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      },
+      "pulse_oximetry": {
+        "spo2": "97%",
+        "comment": "Valor normal",
+        "sensor_location": "Dedo indicador direito."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 75,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "comment": "Valor padrão.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1034",
+          "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+          "text": "Automático, não invasivo"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 18,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Indivíduo apresenta estar normal.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 37,
+          "unit": "Cel"
+        },
+        "comment": "Apesar do calor apresenta temperaturas normais.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 130,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 75,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"4tfvt\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1001",
+        "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+        "text": "Sentado"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": "12:45",
+      "items.0.0.items.7.value": {
+        "code": "at0015",
+        "description": "Uma braçadeira usada para uma coxa de adulto.",
+        "text": "Coxa Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0027",
+        "description": "A coxa direita de uma pessoa.",
+        "text": "Coxa direita"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"39f3k\",\"text\":\"Realizada na coxa direita porque o indivíduo não tem braços.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-09",
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": "97%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"b8mj8\",\"text\":\"Valor normal\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-07",
+      "items.0.2.items.2.value.time": "12:10",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"8a5fb\",\"text\":\"Dedo indicador direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 75,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"90ci3\",\"text\":\"Valor padrão.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-07",
+      "items.0.3.items.6.value.time": "11:45",
+      "items.0.3.items.7.value": {
+        "code": "at1034",
+        "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+        "text": "Automático, não invasivo"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"fp89c\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 18,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"ec0nq\",\"text\":\"Indivíduo apresenta estar normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-07",
+      "items.0.4.items.6.value.time": "11:45",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 37,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"67c6i\",\"text\":\"Apesar do calor apresenta temperaturas normais.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"e000o\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "11:50",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"96t1c\",\"text\":\"Braço direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "ec5e0f6d-1e6a-4cd1-b24b-bc2bd2143467",
+    "created_at": "2025-06-07T22:34:33.695Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 130,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 75,
+          "unit": "mm[Hg]"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1001",
+          "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+          "text": "Sentado"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0015",
+          "description": "Uma braçadeira usada para uma coxa de adulto.",
+          "text": "Coxa Adulto"
+        },
+        "measurement_location": {
+          "code": "at0025",
+          "description": "O braço direito da pessoa.",
+          "text": "Braço direito"
+        },
+        "measurement_location_comment": "Realizada na coxa direita porque o indivíduo não tem braços.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      },
+      "pulse_oximetry": {
+        "spo2": "97%",
+        "comment": "Valor normal",
+        "sensor_location": "Dedo indicador direito."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 75,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "comment": "Valor padrão.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1034",
+          "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+          "text": "Automático, não invasivo"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 18,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Indivíduo apresenta estar normal.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 37,
+          "unit": "Cel"
+        },
+        "comment": "Apesar do calor apresenta temperaturas normais.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 130,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 75,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"4tfvt\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1001",
+        "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+        "text": "Sentado"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": "12:50",
+      "items.0.0.items.7.value": {
+        "code": "at0015",
+        "description": "Uma braçadeira usada para uma coxa de adulto.",
+        "text": "Coxa Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0025",
+        "description": "O braço direito da pessoa.",
+        "text": "Braço direito"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"39f3k\",\"text\":\"Realizada na coxa direita porque o indivíduo não tem braços.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-09",
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": "97%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"b8mj8\",\"text\":\"Valor normal\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-07",
+      "items.0.2.items.2.value.time": "12:10",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"8a5fb\",\"text\":\"Dedo indicador direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 75,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"90ci3\",\"text\":\"Valor padrão.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-07",
+      "items.0.3.items.6.value.time": "11:45",
+      "items.0.3.items.7.value": {
+        "code": "at1034",
+        "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+        "text": "Automático, não invasivo"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"fp89c\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 18,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"ec0nq\",\"text\":\"Indivíduo apresenta estar normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-07",
+      "items.0.4.items.6.value.time": "11:45",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 37,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"67c6i\",\"text\":\"Apesar do calor apresenta temperaturas normais.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"e000o\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "11:50",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"96t1c\",\"text\":\"Braço direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "dcaf37dc-1441-4923-8dbe-0bd0674d1c64",
+    "created_at": "2025-06-07T22:35:00.482Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 130,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 75,
+          "unit": "mm[Hg]"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1001",
+          "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+          "text": "Sentado"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0017",
+          "description": "Uma braçadeira padrão para um adulto.",
+          "text": "Adulto"
+        },
+        "measurement_location": {
+          "code": "at0028",
+          "description": "A coxa esquerda de uma pessoa.",
+          "text": "Coxa esquerda"
+        },
+        "measurement_location_comment": "Realizada na coxa direita porque o indivíduo não tem braços.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      },
+      "pulse_oximetry": {
+        "spo2": "97%",
+        "comment": "Valor normal",
+        "sensor_location": "Dedo indicador direito."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 75,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "comment": "Valor padrão.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1034",
+          "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+          "text": "Automático, não invasivo"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 18,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Indivíduo apresenta estar normal.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 37,
+          "unit": "Cel"
+        },
+        "comment": "Apesar do calor apresenta temperaturas normais.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 130,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 75,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"4tfvt\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1001",
+        "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+        "text": "Sentado"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": "12:55",
+      "items.0.0.items.7.value": {
+        "code": "at0017",
+        "description": "Uma braçadeira padrão para um adulto.",
+        "text": "Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0028",
+        "description": "A coxa esquerda de uma pessoa.",
+        "text": "Coxa esquerda"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"39f3k\",\"text\":\"Realizada na coxa direita porque o indivíduo não tem braços.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-09",
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": "97%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"b8mj8\",\"text\":\"Valor normal\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-07",
+      "items.0.2.items.2.value.time": "12:10",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"8a5fb\",\"text\":\"Dedo indicador direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 75,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"90ci3\",\"text\":\"Valor padrão.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-07",
+      "items.0.3.items.6.value.time": "11:45",
+      "items.0.3.items.7.value": {
+        "code": "at1034",
+        "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+        "text": "Automático, não invasivo"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"fp89c\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 18,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"ec0nq\",\"text\":\"Indivíduo apresenta estar normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-07",
+      "items.0.4.items.6.value.time": "11:45",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 37,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"67c6i\",\"text\":\"Apesar do calor apresenta temperaturas normais.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"e000o\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "11:50",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"96t1c\",\"text\":\"Braço direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "ccc81eb5-a613-4479-a0b2-3c331a2f5df6",
+    "created_at": "2025-06-07T22:35:15.926Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 130,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 75,
+          "unit": "mm[Hg]"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1001",
+          "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+          "text": "Sentado"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0017",
+          "description": "Uma braçadeira padrão para um adulto.",
+          "text": "Adulto"
+        },
+        "measurement_location": {
+          "code": "at0025",
+          "description": "O braço direito da pessoa.",
+          "text": "Braço direito"
+        },
+        "measurement_location_comment": "Realizada na coxa direita porque o indivíduo não tem braços.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      },
+      "pulse_oximetry": {
+        "spo2": "97%",
+        "comment": "Valor normal",
+        "sensor_location": "Dedo indicador direito."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 75,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "comment": "Valor padrão.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1034",
+          "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+          "text": "Automático, não invasivo"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 18,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Indivíduo apresenta estar normal.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 37,
+          "unit": "Cel"
+        },
+        "comment": "Apesar do calor apresenta temperaturas normais.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 130,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 75,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"4tfvt\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1001",
+        "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+        "text": "Sentado"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": "13:05",
+      "items.0.0.items.7.value": {
+        "code": "at0017",
+        "description": "Uma braçadeira padrão para um adulto.",
+        "text": "Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0025",
+        "description": "O braço direito da pessoa.",
+        "text": "Braço direito"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"39f3k\",\"text\":\"Realizada na coxa direita porque o indivíduo não tem braços.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-09",
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": "97%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"b8mj8\",\"text\":\"Valor normal\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-07",
+      "items.0.2.items.2.value.time": "12:10",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"8a5fb\",\"text\":\"Dedo indicador direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 75,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"90ci3\",\"text\":\"Valor padrão.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-07",
+      "items.0.3.items.6.value.time": "11:45",
+      "items.0.3.items.7.value": {
+        "code": "at1034",
+        "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+        "text": "Automático, não invasivo"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"fp89c\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 18,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"ec0nq\",\"text\":\"Indivíduo apresenta estar normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-07",
+      "items.0.4.items.6.value.time": "11:45",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 37,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"67c6i\",\"text\":\"Apesar do calor apresenta temperaturas normais.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"e000o\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "11:50",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"96t1c\",\"text\":\"Braço direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "b87b0581-cf10-462d-b5b6-1de5a239eeba",
+    "created_at": "2025-06-07T22:35:29.211Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 130,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 75,
+          "unit": "mm[Hg]"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1001",
+          "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+          "text": "Sentado"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0017",
+          "description": "Uma braçadeira padrão para um adulto.",
+          "text": "Adulto"
+        },
+        "measurement_location": {
+          "code": "at0026",
+          "description": "O braço esquerdo da pessoa.",
+          "text": "Braço esquerdo"
+        },
+        "measurement_location_comment": "Realizada na coxa direita porque o indivíduo não tem braços.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      },
+      "pulse_oximetry": {
+        "spo2": "97%",
+        "comment": "Valor normal",
+        "sensor_location": "Dedo indicador direito."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 75,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "comment": "Valor padrão.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1034",
+          "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+          "text": "Automático, não invasivo"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 18,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Indivíduo apresenta estar normal.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 37,
+          "unit": "Cel"
+        },
+        "comment": "Apesar do calor apresenta temperaturas normais.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 130,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 75,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"4tfvt\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1001",
+        "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+        "text": "Sentado"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": "13:05",
+      "items.0.0.items.7.value": {
+        "code": "at0017",
+        "description": "Uma braçadeira padrão para um adulto.",
+        "text": "Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0026",
+        "description": "O braço esquerdo da pessoa.",
+        "text": "Braço esquerdo"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"39f3k\",\"text\":\"Realizada na coxa direita porque o indivíduo não tem braços.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-09",
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": "97%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"b8mj8\",\"text\":\"Valor normal\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-07",
+      "items.0.2.items.2.value.time": "12:10",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"8a5fb\",\"text\":\"Dedo indicador direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 75,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"90ci3\",\"text\":\"Valor padrão.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-07",
+      "items.0.3.items.6.value.time": "11:45",
+      "items.0.3.items.7.value": {
+        "code": "at1034",
+        "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+        "text": "Automático, não invasivo"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"fp89c\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 18,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"ec0nq\",\"text\":\"Indivíduo apresenta estar normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-07",
+      "items.0.4.items.6.value.time": "11:45",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 37,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"67c6i\",\"text\":\"Apesar do calor apresenta temperaturas normais.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"e000o\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "11:50",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"96t1c\",\"text\":\"Braço direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "95fcec28-673b-46ee-8860-df24b845772a",
+    "created_at": "2025-06-07T22:36:34.135Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 130,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 75,
+          "unit": "mm[Hg]"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1001",
+          "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+          "text": "Sentado"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0017",
+          "description": "Uma braçadeira padrão para um adulto.",
+          "text": "Adulto"
+        },
+        "measurement_location": {
+          "code": "at0025",
+          "description": "O braço direito da pessoa.",
+          "text": "Braço direito"
+        },
+        "measurement_location_comment": "Realizada na coxa direita porque o indivíduo não tem braços.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25,
+          "unit": "kg/m2"
+        },
+        "comment": "Normal."
+      },
+      "pulse_oximetry": {
+        "spo2": "97%",
+        "comment": "Valor normal",
+        "sensor_location": "Dedo indicador direito."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 75,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "comment": "Valor padrão.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1034",
+          "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+          "text": "Automático, não invasivo"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 18,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Indivíduo apresenta estar normal.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 37,
+          "unit": "Cel"
+        },
+        "comment": "Apesar do calor apresenta temperaturas normais.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Braço direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 130,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 75,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"4tfvt\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1001",
+        "description": "Sentado (por exemplo, na cama ou cadeira) no momento da medição da pressão arterial.",
+        "text": "Sentado"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": "13:15",
+      "items.0.0.items.7.value": {
+        "code": "at0017",
+        "description": "Uma braçadeira padrão para um adulto.",
+        "text": "Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0025",
+        "description": "O braço direito da pessoa.",
+        "text": "Braço direito"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"39f3k\",\"text\":\"Realizada na coxa direita porque o indivíduo não tem braços.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"85k2v\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-09",
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": "97%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"b8mj8\",\"text\":\"Valor normal\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-07",
+      "items.0.2.items.2.value.time": "12:10",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"8a5fb\",\"text\":\"Dedo indicador direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 75,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"90ci3\",\"text\":\"Valor padrão.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-07",
+      "items.0.3.items.6.value.time": "11:45",
+      "items.0.3.items.7.value": {
+        "code": "at1034",
+        "description": "Os achados são observados de forma não invasiva usando um dispositivo como um oxímetro de pulso ou um estetoscópio.",
+        "text": "Automático, não invasivo"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"fp89c\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 18,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"ec0nq\",\"text\":\"Indivíduo apresenta estar normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-07",
+      "items.0.4.items.6.value.time": "11:45",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 37,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"67c6i\",\"text\":\"Apesar do calor apresenta temperaturas normais.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"e000o\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-07",
+      "items.0.5.items.4.value.time": "11:50",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"96t1c\",\"text\":\"Braço direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "ee0dd12e-56b4-46a2-b7d1-f515b15f63bf",
+    "created_at": "2025-06-07T22:47:21.887Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 135,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 75,
+          "unit": "mm[Hg]"
+        },
+        "comment": "É preciso observar para ver se não sai fora de controlo",
+        "position": {
+          "code": "at1000",
+          "description": "Em pé no momento da medição da pressão arterial.",
+          "text": "Em pé"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0017",
+          "description": "Uma braçadeira padrão para um adulto.",
+          "text": "Adulto"
+        },
+        "measurement_location": {
+          "code": "at0026",
+          "description": "O braço esquerdo da pessoa.",
+          "text": "Braço esquerdo"
+        },
+        "measurement_location_comment": "Normal.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 135,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 75,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"3b9u2\",\"text\":\"É preciso observar para ver se não sai fora de controlo\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1000",
+        "description": "Em pé no momento da medição da pressão arterial.",
+        "text": "Em pé"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-07",
+      "items.0.0.items.6.value.time": null,
+      "items.0.0.items.7.value": {
+        "code": "at0017",
+        "description": "Uma braçadeira padrão para um adulto.",
+        "text": "Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0026",
+        "description": "O braço esquerdo da pessoa.",
+        "text": "Braço esquerdo"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"7il4a\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": null,
+      "items.0.1.items.0.value.value": null,
+      "items.0.1.items.1.value": null,
+      "items.0.1.items.2.value.date": null,
+      "items.0.1.items.2.value.time": null,
+      "items.0.2.items.0.value": null,
+      "items.0.2.items.1.value": null,
+      "items.0.2.items.2.value.date": null,
+      "items.0.2.items.2.value.time": null,
+      "items.0.2.items.3.value": null,
+      "items.0.3.items.0.value": null,
+      "items.0.3.items.1.value.unit": null,
+      "items.0.3.items.1.value.value": null,
+      "items.0.3.items.2.value": null,
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": null,
+      "items.0.3.items.5.value": null,
+      "items.0.3.items.6.value.date": null,
+      "items.0.3.items.6.value.time": null,
+      "items.0.3.items.7.value": null,
+      "items.0.3.items.8.value": null,
+      "items.0.3.items.9.value": null,
+      "items.0.4.items.0.value": null,
+      "items.0.4.items.1.value.unit": null,
+      "items.0.4.items.1.value.value": null,
+      "items.0.4.items.2.value": null,
+      "items.0.4.items.3.value": null,
+      "items.0.4.items.4.value": null,
+      "items.0.4.items.5.value": null,
+      "items.0.4.items.6.value.date": null,
+      "items.0.4.items.6.value.time": null,
+      "items.0.5.items.0.value.unit": null,
+      "items.0.5.items.0.value.value": null,
+      "items.0.5.items.1.value": null,
+      "items.0.5.items.2.value": null,
+      "items.0.5.items.3.value": null,
+      "items.0.5.items.4.value.date": null,
+      "items.0.5.items.4.value.time": null,
+      "items.0.5.items.5.value": null,
+      "items.0.5.items.6.value": null
+    }
+  },
+  {
+    "id": "d496a9ca-f2b7-4ff2-beb0-d969fd6c3dbb",
+    "created_at": "2025-06-07T23:07:59.382Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 135,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 75,
+          "unit": "mm[Hg]"
+        },
+        "comment": "É preciso observar para ver se não sai fora de controlo",
+        "position": {
+          "code": "at1000",
+          "description": "Em pé no momento da medição da pressão arterial.",
+          "text": "Em pé"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0017",
+          "description": "Uma braçadeira padrão para um adulto.",
+          "text": "Adulto"
+        },
+        "measurement_location": {
+          "code": "at0026",
+          "description": "O braço esquerdo da pessoa.",
+          "text": "Braço esquerdo"
+        },
+        "measurement_location_comment": "Normal.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 26,
+          "unit": "kg/m2"
+        },
+        "comment": "Bom."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 135,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 75,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"3b9u2\",\"text\":\"É preciso observar para ver se não sai fora de controlo\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1000",
+        "description": "Em pé no momento da medição da pressão arterial.",
+        "text": "Em pé"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-08",
+      "items.0.0.items.6.value.time": "00:25",
+      "items.0.0.items.7.value": {
+        "code": "at0017",
+        "description": "Uma braçadeira padrão para um adulto.",
+        "text": "Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0026",
+        "description": "O braço esquerdo da pessoa.",
+        "text": "Braço esquerdo"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"7il4a\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 26,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"9gsg7\",\"text\":\"Bom.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-08",
+      "items.0.1.items.2.value.time": "00:30",
+      "items.0.2.items.0.value": null,
+      "items.0.2.items.1.value": null,
+      "items.0.2.items.2.value.date": null,
+      "items.0.2.items.2.value.time": null,
+      "items.0.2.items.3.value": null,
+      "items.0.3.items.0.value": null,
+      "items.0.3.items.1.value.unit": null,
+      "items.0.3.items.1.value.value": null,
+      "items.0.3.items.2.value": null,
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": null,
+      "items.0.3.items.5.value": null,
+      "items.0.3.items.6.value.date": null,
+      "items.0.3.items.6.value.time": null,
+      "items.0.3.items.7.value": null,
+      "items.0.3.items.8.value": null,
+      "items.0.3.items.9.value": null,
+      "items.0.4.items.0.value": null,
+      "items.0.4.items.1.value.unit": null,
+      "items.0.4.items.1.value.value": null,
+      "items.0.4.items.2.value": null,
+      "items.0.4.items.3.value": null,
+      "items.0.4.items.4.value": null,
+      "items.0.4.items.5.value": null,
+      "items.0.4.items.6.value.date": null,
+      "items.0.4.items.6.value.time": null,
+      "items.0.5.items.0.value.unit": null,
+      "items.0.5.items.0.value.value": null,
+      "items.0.5.items.1.value": null,
+      "items.0.5.items.2.value": null,
+      "items.0.5.items.3.value": null,
+      "items.0.5.items.4.value.date": null,
+      "items.0.5.items.4.value.time": null,
+      "items.0.5.items.5.value": null,
+      "items.0.5.items.6.value": null
+    }
+  },
+  {
+    "id": "aa7b72d7-ca96-443a-b259-5bd4654aa088",
+    "created_at": "2025-06-07T23:49:57.420Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 130,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 75,
+          "unit": "mm[Hg]"
+        },
+        "comment": "É preciso observar para ver se não sai fora de controlo",
+        "position": {
+          "code": "at1000",
+          "description": "Em pé no momento da medição da pressão arterial.",
+          "text": "Em pé"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0017",
+          "description": "Uma braçadeira padrão para um adulto.",
+          "text": "Adulto"
+        },
+        "measurement_location": {
+          "code": "at0026",
+          "description": "O braço esquerdo da pessoa.",
+          "text": "Braço esquerdo"
+        },
+        "measurement_location_comment": "Normal.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 26,
+          "unit": "kg/m2"
+        },
+        "comment": "Bom."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 130,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 75,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"3b9u2\",\"text\":\"É preciso observar para ver se não sai fora de controlo\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1000",
+        "description": "Em pé no momento da medição da pressão arterial.",
+        "text": "Em pé"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-08",
+      "items.0.0.items.6.value.time": "01:05",
+      "items.0.0.items.7.value": {
+        "code": "at0017",
+        "description": "Uma braçadeira padrão para um adulto.",
+        "text": "Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0026",
+        "description": "O braço esquerdo da pessoa.",
+        "text": "Braço esquerdo"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"7il4a\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 26,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"9gsg7\",\"text\":\"Bom.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-08",
+      "items.0.1.items.2.value.time": "01:30",
+      "items.0.2.items.0.value": null,
+      "items.0.2.items.1.value": null,
+      "items.0.2.items.2.value.date": null,
+      "items.0.2.items.2.value.time": null,
+      "items.0.2.items.3.value": null,
+      "items.0.3.items.0.value": null,
+      "items.0.3.items.1.value.unit": null,
+      "items.0.3.items.1.value.value": null,
+      "items.0.3.items.2.value": null,
+      "items.0.3.items.3.value": null,
+      "items.0.3.items.4.value": null,
+      "items.0.3.items.5.value": null,
+      "items.0.3.items.6.value.date": null,
+      "items.0.3.items.6.value.time": null,
+      "items.0.3.items.7.value": null,
+      "items.0.3.items.8.value": null,
+      "items.0.3.items.9.value": null,
+      "items.0.4.items.0.value": null,
+      "items.0.4.items.1.value.unit": null,
+      "items.0.4.items.1.value.value": null,
+      "items.0.4.items.2.value": null,
+      "items.0.4.items.3.value": null,
+      "items.0.4.items.4.value": null,
+      "items.0.4.items.5.value": null,
+      "items.0.4.items.6.value.date": null,
+      "items.0.4.items.6.value.time": null,
+      "items.0.5.items.0.value.unit": null,
+      "items.0.5.items.0.value.value": null,
+      "items.0.5.items.1.value": null,
+      "items.0.5.items.2.value": null,
+      "items.0.5.items.3.value": null,
+      "items.0.5.items.4.value.date": null,
+      "items.0.5.items.4.value.time": null,
+      "items.0.5.items.5.value": null,
+      "items.0.5.items.6.value": null
+    }
+  },
+  {
+    "id": "5abc50ca-7126-4f2c-8087-6c8956b0ecff",
+    "created_at": "2025-06-07T23:59:51.399Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 130,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 75,
+          "unit": "mm[Hg]"
+        },
+        "comment": "É preciso observar para ver se não sai fora de controlo",
+        "position": {
+          "code": "at1000",
+          "description": "Em pé no momento da medição da pressão arterial.",
+          "text": "Em pé"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 0,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0017",
+          "description": "Uma braçadeira padrão para um adulto.",
+          "text": "Adulto"
+        },
+        "measurement_location": {
+          "code": "at0026",
+          "description": "O braço esquerdo da pessoa.",
+          "text": "Braço esquerdo"
+        },
+        "measurement_location_comment": "Normal.",
+        "method": {
+          "code": "at1039",
+          "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+          "text": "Máquina"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 26,
+          "unit": "kg/m2"
+        },
+        "comment": "Bom."
+      },
+      "pulse_oximetry": {
+        "spo2": "96%",
+        "comment": "Bom.",
+        "sensor_location": "Dedo."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 105,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "irregularity_type": {
+          "code": "at0007",
+          "description": "O padrão é irregular em um padrão regular. Por exemplo, uma batida interrompida a cada n' tempos.",
+          "text": "Regularmente Irregular"
+        },
+        "comment": "Taquicardia.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1033",
+          "description": "Os achados são observados com o auxílio de um dispositivo, como um estetoscópio.",
+          "text": "Ausculta"
+        },
+        "body_location": {
+          "code": "at1040",
+          "description": "A região do coração.",
+          "text": "Coração"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 20,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0017",
+          "description": "Profundidade normal da respiração.",
+          "text": "Normal"
+        },
+        "comment": "Acelerada.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 38,
+          "unit": "Cel"
+        },
+        "comment": "Temperatura elevada.",
+        "body_exposure": {
+          "code": "at0032",
+          "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama reduzidas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0024",
+          "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+          "text": "Axila"
+        },
+        "measurement_location_comment": "Axila direita."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 130,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 75,
+      "items.0.0.items.10.value": {
+        "code": "at1039",
+        "description": "Método de medição externa da pressão arterial, utilizando um aparelho de pressão arterial.",
+        "text": "Máquina"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"3b9u2\",\"text\":\"É preciso observar para ver se não sai fora de controlo\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1000",
+        "description": "Em pé no momento da medição da pressão arterial.",
+        "text": "Em pé"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 0,
+      "items.0.0.items.6.value.date": "2025-06-08",
+      "items.0.0.items.6.value.time": "02:00",
+      "items.0.0.items.7.value": {
+        "code": "at0017",
+        "description": "Uma braçadeira padrão para um adulto.",
+        "text": "Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0026",
+        "description": "O braço esquerdo da pessoa.",
+        "text": "Braço esquerdo"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"7il4a\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 26,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"9gsg7\",\"text\":\"Bom.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-08",
+      "items.0.1.items.2.value.time": "02:00",
+      "items.0.2.items.0.value": "96%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"an7p0\",\"text\":\"Bom.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-08",
+      "items.0.2.items.2.value.time": "02:00",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"1cgf9\",\"text\":\"Dedo.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 105,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": {
+        "code": "at0007",
+        "description": "O padrão é irregular em um padrão regular. Por exemplo, uma batida interrompida a cada n' tempos.",
+        "text": "Regularmente Irregular"
+      },
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"epulj\",\"text\":\"Taquicardia.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-08",
+      "items.0.3.items.6.value.time": "02:00",
+      "items.0.3.items.7.value": {
+        "code": "at1033",
+        "description": "Os achados são observados com o auxílio de um dispositivo, como um estetoscópio.",
+        "text": "Ausculta"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1040",
+        "description": "A região do coração.",
+        "text": "Coração"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"oeoc\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 20,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0017",
+        "description": "Profundidade normal da respiração.",
+        "text": "Normal"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"4q44r\",\"text\":\"Acelerada.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-08",
+      "items.0.4.items.6.value.time": "02:00",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 38,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"5l8k6\",\"text\":\"Temperatura elevada.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0032",
+        "description": "A pessoa está coberta por uma quantidade menor de roupas ou roupas de cama do que o considerado apropriado para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama reduzidas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"f9gm0\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-08",
+      "items.0.5.items.4.value.time": "02:00",
+      "items.0.5.items.5.value": {
+        "code": "at0024",
+        "description": "A temperatura é medida na pele da axila com o braço posicionado ao lado do corpo.",
+        "text": "Axila"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"fij6v\",\"text\":\"Axila direita.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  },
+  {
+    "id": "605a9564-5c17-4e15-9065-e6e1946b75d5",
+    "created_at": "2025-06-08T10:53:31.536Z",
+    "numero_utente": "12345",
+    "form_data": {
+      "blood_pressure": {
+        "systolic": {
+          "value": 85,
+          "unit": "mm[Hg]"
+        },
+        "diastolic": {
+          "value": 58,
+          "unit": "mm[Hg]"
+        },
+        "comment": "hipotensão",
+        "position": {
+          "code": "at1000",
+          "description": "Em pé no momento da medição da pressão arterial.",
+          "text": "Em pé"
+        },
+        "sleep_status": {
+          "code": "at1044",
+          "description": "O indivíduo está totalmente consciente.",
+          "text": "Acordado"
+        },
+        "inclination": {
+          "value": 20,
+          "unit": "deg"
+        },
+        "cuff_size": {
+          "code": "at0017",
+          "description": "Uma braçadeira padrão para um adulto.",
+          "text": "Adulto"
+        },
+        "measurement_location": {
+          "code": "at0028",
+          "description": "A coxa esquerda de uma pessoa.",
+          "text": "Coxa esquerda"
+        },
+        "measurement_location_comment": "Perna.",
+        "method": {
+          "code": "at1036",
+          "description": "Método de medição externa da pressão arterial, utilizando estetoscópio e sons de Korotkoff.",
+          "text": "Auscultação"
+        }
+      },
+      "bmi": {
+        "bmi_value": {
+          "value": 25.5,
+          "unit": "kg/m2"
+        },
+        "comment": "Ok."
+      },
+      "pulse_oximetry": {
+        "spo2": "99%",
+        "comment": "Ótimo.",
+        "sensor_location": "Dedo."
+      },
+      "pulse": {
+        "presence": {
+          "code": "at1024",
+          "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 70,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão é regular.",
+          "text": "Regular"
+        },
+        "irregularity_type": {
+          "code": "at0007",
+          "description": "O padrão é irregular em um padrão regular. Por exemplo, uma batida interrompida a cada n' tempos.",
+          "text": "Regularmente Irregular"
+        },
+        "comment": "Normal.",
+        "position": {
+          "code": "at1003",
+          "description": "O sujeito estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        },
+        "method": {
+          "code": "at1033",
+          "description": "Os achados são observados com o auxílio de um dispositivo, como um estetoscópio.",
+          "text": "Ausculta"
+        },
+        "body_location": {
+          "code": "at1039",
+          "description": "A artéria radial direita.",
+          "text": "Artéria Radial - Direita"
+        },
+        "body_location_comment": "Caixa torácica."
+      },
+      "respiration": {
+        "presence": {
+          "code": "at0063",
+          "description": "Os movimentos respiratórios são observados.",
+          "text": "Presente"
+        },
+        "rate": {
+          "value": 17,
+          "unit": "/min"
+        },
+        "regularity": {
+          "code": "at0006",
+          "description": "O padrão respiratório é regular.",
+          "text": "Regular"
+        },
+        "depth": {
+          "code": "at0019",
+          "description": "Respiração profunda.",
+          "text": "Profundo"
+        },
+        "comment": "Sem ruídos estranhos.",
+        "body_position": {
+          "code": "at0066",
+          "description": "O indivíduo estava em pé, caminhando ou correndo.",
+          "text": "Em pé/direito"
+        }
+      },
+      "body_temperature": {
+        "temperature": {
+          "value": 37,
+          "unit": "Cel"
+        },
+        "comment": "Normal.",
+        "body_exposure": {
+          "code": "at0033",
+          "description": "A pessoa está coberta por uma quantidade de roupa ou roupa de cama considerada apropriada para as circunstâncias ambientais.",
+          "text": "Roupas/roupas de cama apropriadas"
+        },
+        "body_exposure_comment": "Normal.",
+        "measurement_location": {
+          "code": "at0023",
+          "description": "A temperatura é medida dentro do canal auditivo externo.",
+          "text": "Canal auditivo"
+        },
+        "measurement_location_comment": "Canal auditivo direito."
+      }
+    },
+    "raw_data": {
+      "items.0.0.items.0.value.unit": "mm[Hg]",
+      "items.0.0.items.0.value.value": 85,
+      "items.0.0.items.1.value.unit": "mm[Hg]",
+      "items.0.0.items.1.value.value": 58,
+      "items.0.0.items.10.value": {
+        "code": "at1036",
+        "description": "Método de medição externa da pressão arterial, utilizando estetoscópio e sons de Korotkoff.",
+        "text": "Auscultação"
+      },
+      "items.0.0.items.2.value": "{\"blocks\":[{\"key\":\"djmii\",\"text\":\"hipotensão\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.0.items.3.value": {
+        "code": "at1000",
+        "description": "Em pé no momento da medição da pressão arterial.",
+        "text": "Em pé"
+      },
+      "items.0.0.items.4.value": {
+        "code": "at1044",
+        "description": "O indivíduo está totalmente consciente.",
+        "text": "Acordado"
+      },
+      "items.0.0.items.5.value.unit": "deg",
+      "items.0.0.items.5.value.value": 20,
+      "items.0.0.items.6.value.date": "2025-06-08",
+      "items.0.0.items.6.value.time": "12:00",
+      "items.0.0.items.7.value": {
+        "code": "at0017",
+        "description": "Uma braçadeira padrão para um adulto.",
+        "text": "Adulto"
+      },
+      "items.0.0.items.8.value": {
+        "code": "at0028",
+        "description": "A coxa esquerda de uma pessoa.",
+        "text": "Coxa esquerda"
+      },
+      "items.0.0.items.9.value": "{\"blocks\":[{\"key\":\"8vo1o\",\"text\":\"Perna.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.0.value.unit": "kg/m2",
+      "items.0.1.items.0.value.value": 25.5,
+      "items.0.1.items.1.value": "{\"blocks\":[{\"key\":\"68mrg\",\"text\":\"Ok.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.1.items.2.value.date": "2025-06-08",
+      "items.0.1.items.2.value.time": "12:00",
+      "items.0.2.items.0.value": "99%",
+      "items.0.2.items.1.value": "{\"blocks\":[{\"key\":\"6i8al\",\"text\":\"Ótimo.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.2.items.2.value.date": "2025-06-08",
+      "items.0.2.items.2.value.time": "12:00",
+      "items.0.2.items.3.value": "{\"blocks\":[{\"key\":\"4llbb\",\"text\":\"Dedo.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.0.value": {
+        "code": "at1024",
+        "description": "Um pulso ou batimento cardíaco pode ser detectado.",
+        "text": "Presente"
+      },
+      "items.0.3.items.1.value.unit": "/min",
+      "items.0.3.items.1.value.value": 70,
+      "items.0.3.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão é regular.",
+        "text": "Regular"
+      },
+      "items.0.3.items.3.value": {
+        "code": "at0007",
+        "description": "O padrão é irregular em um padrão regular. Por exemplo, uma batida interrompida a cada n' tempos.",
+        "text": "Regularmente Irregular"
+      },
+      "items.0.3.items.4.value": "{\"blocks\":[{\"key\":\"11ci7\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.3.items.5.value": {
+        "code": "at1003",
+        "description": "O sujeito estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.3.items.6.value.date": "2025-06-08",
+      "items.0.3.items.6.value.time": "12:00",
+      "items.0.3.items.7.value": {
+        "code": "at1033",
+        "description": "Os achados são observados com o auxílio de um dispositivo, como um estetoscópio.",
+        "text": "Ausculta"
+      },
+      "items.0.3.items.8.value": {
+        "code": "at1039",
+        "description": "A artéria radial direita.",
+        "text": "Artéria Radial - Direita"
+      },
+      "items.0.3.items.9.value": "{\"blocks\":[{\"key\":\"1n5fu\",\"text\":\"Caixa torácica.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.0.value": {
+        "code": "at0063",
+        "description": "Os movimentos respiratórios são observados.",
+        "text": "Presente"
+      },
+      "items.0.4.items.1.value.unit": "/min",
+      "items.0.4.items.1.value.value": 17,
+      "items.0.4.items.2.value": {
+        "code": "at0006",
+        "description": "O padrão respiratório é regular.",
+        "text": "Regular"
+      },
+      "items.0.4.items.3.value": {
+        "code": "at0019",
+        "description": "Respiração profunda.",
+        "text": "Profundo"
+      },
+      "items.0.4.items.4.value": "{\"blocks\":[{\"key\":\"csqf4\",\"text\":\"Sem ruídos estranhos.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.4.items.5.value": {
+        "code": "at0066",
+        "description": "O indivíduo estava em pé, caminhando ou correndo.",
+        "text": "Em pé/direito"
+      },
+      "items.0.4.items.6.value.date": "2025-06-08",
+      "items.0.4.items.6.value.time": "12:00",
+      "items.0.5.items.0.value.unit": "Cel",
+      "items.0.5.items.0.value.value": 37,
+      "items.0.5.items.1.value": "{\"blocks\":[{\"key\":\"ci9qe\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.2.value": {
+        "code": "at0033",
+        "description": "A pessoa está coberta por uma quantidade de roupa ou roupa de cama considerada apropriada para as circunstâncias ambientais.",
+        "text": "Roupas/roupas de cama apropriadas"
+      },
+      "items.0.5.items.3.value": "{\"blocks\":[{\"key\":\"784u\",\"text\":\"Normal.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "items.0.5.items.4.value.date": "2025-06-08",
+      "items.0.5.items.4.value.time": "12:00",
+      "items.0.5.items.5.value": {
+        "code": "at0023",
+        "description": "A temperatura é medida dentro do canal auditivo externo.",
+        "text": "Canal auditivo"
+      },
+      "items.0.5.items.6.value": "{\"blocks\":[{\"key\":\"cur2m\",\"text\":\"Canal auditivo direito.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+    }
+  }
+]
